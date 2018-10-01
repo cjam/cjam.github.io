@@ -11,13 +11,32 @@ $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
-$lightGray: #eee;
+$mediumGray: #999;
+$lightGray: #DDD;
 $white: #fff;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+$base-font-size:16;
+$base-border-color: $lightGray;
+$base-border-radius: 4px;
+
+// Effects
+// =============================================================================
+
+$base-transition-speed: .2s;
+
+// Articles
+$article-header-title-color: $darkerGray;
+$article-header-description-color: $darkGray;
+$article-post-titles-color: $darkerGray;
+$article-footer-color: $mediumGray;
+$article-footer-link-color: $darkGray;
+$article-footer-link-color-hover: $darkerGray;
+$article-paginator-color-hover: $darkerGray;
 
 // Mobile breakpoints
 @mixin mobile {

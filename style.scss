@@ -20,6 +20,10 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.5);
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  margin: 0;
   color: $darkGray;
 }
 
@@ -261,8 +265,15 @@ nav {
     font-style: italic;
   }
 
+  .date {
+    padding-top:20px;
+    margin-top:20px;
+  }
+
   .comments {
-    margin-top: 10px;
+    border-top:1px solid $gray;
+    margin-top: 50px;
+    padding-top: 30px;
   }
 
   .read-more {
@@ -283,7 +294,11 @@ footer {
   text-align: center;
 }
 
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "mixins";
 @import "highlights";
 @import "svg-icons";
+@import "articles";
