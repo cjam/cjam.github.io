@@ -1,6 +1,6 @@
 ---
 title: Cjam.Github.Io
-timezone: UTC
+timezone: America/Vancouver
 collections:
   posts:
     title: Posts
@@ -31,11 +31,11 @@ footer-links:
 disqus: cjam
 google_analytics: UA-126767165-1
 url: https://cjam.github.io
-baseurl: ''
+baseurl: 
 permalink: "/:title/"
 version: v3.8.4
 sass:
-  style: :expanded
+  style: expanded
 plugins:
 - jekyll-sitemap
 - jekyll-feed
