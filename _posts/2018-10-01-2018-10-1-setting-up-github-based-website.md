@@ -1,8 +1,9 @@
 ---
-layout: article
 title: Setting up my portfolio / blog
+date: 2018-10-01 00:00:00 Z
+layout: article
 comments: true
-description: My first post and subsequently the steps I took to get this site setup. 
+description: My first post and subsequently the steps I took to get this site setup.
 ---
 
 Ok, so here I am.  A first post discussing the very site holding this page.  Awesome.  So I am attempting to build a personal portfolio / blog automatically built (Using [Jekyll](https://jekyllrb.com/)) and hosted by [Github Pages](https://pages.github.com/).

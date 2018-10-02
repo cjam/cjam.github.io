@@ -1,7 +1,7 @@
 ---
-layout: page
 title: School
-permalink: /school/
+permalink: "/school/"
+layout: page
 ---
 
 This is where I'll place information about school
