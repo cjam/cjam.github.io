@@ -288,9 +288,7 @@ There are few things that I'd like to do with our implementation.
 
 #### Type Safety
 
-I handled type safety by using some nice tricks provided by the Typescript compiler.  Mostly the `keyof`.
-
-First I created an interface that represents all of the events within the system:
+I did a post recently on which describes the approach that I took for [typesafe events]({{ site.baseurl }}{% post_url 2018-10-12-typesafe-event-emitter-in-typescript %}).
 
 ```ts
 export default interface SpotifyApiEvents {

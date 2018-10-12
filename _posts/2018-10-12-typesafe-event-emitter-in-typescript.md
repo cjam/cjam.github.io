@@ -12,6 +12,8 @@ I do like the event emitter, but I also like using Typescript and getting type-s
 
 <script src="https://gist.github.com/cjam/fe79fb0f10f91d9bbea62d565c10efae.js"></script>
 
+It handles type safety by using the `keyof` directive offered by the Typescript Compiler.
+
 Using it is simple:
 
 ```ts
