@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Resume
-permalink: /resume/
+permalink: "/resume/"
+layout: page
 ---
 
 This is where I'll place my resume
