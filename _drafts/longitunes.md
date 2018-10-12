@@ -1,6 +1,7 @@
 ---
-layout: article
 title: Creating Geo-Referenced Playlist app
+date: 2018-10-12 10:05:24.075000000 -07:00
+layout: article
 description: Notes on creating my Geo Referenced playlist app code-named Longitunes
 ---
 

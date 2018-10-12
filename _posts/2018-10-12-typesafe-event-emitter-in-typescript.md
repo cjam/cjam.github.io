@@ -1,6 +1,7 @@
 ---
-layout: article
 title: Typesafe Event Emitter with Typescript
+date: 2018-10-12 00:00:00 -07:00
+layout: article
 comments: true
 description: My approach to creating a Typesafe Event Emitter in Typescript
 ---

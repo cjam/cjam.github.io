@@ -1,8 +1,15 @@
 ---
+title: "(Re)Creating React Native Spotify SDK"
+date: 2018-10-12 10:05:24.038000000 -07:00
+tags:
+- objective-c
+- react-native
+- spotify
+- ios
+- android
+- java
 layout: article
-title: (Re)Creating React Native Spotify SDK
 description: Some notes on my work on upgrading the Spotify SDK used within rn-spotify-sdk
-tags: [objective-c, react-native, spotify, ios, android, java]
 ---
 
 Many thanks to [@lufinkey](https://github.com/lufinkey) on his great work setting up the [rn-spotify-sdk](https://github.com/lufinkey/react-native-spotify) project.
