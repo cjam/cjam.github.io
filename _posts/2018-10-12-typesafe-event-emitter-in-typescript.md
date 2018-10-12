@@ -25,12 +25,12 @@ export interface MyEventEmitter extends TypedEventEmitter<MyEvents>{
 
 }
 
-// You'll actually have to create a class that inherits from EventEmitter at some point and cast it to a MyEventEmitter
+// You'll actually have to create a class that inherits from 
+// EventEmitter at some point and cast it to a MyEventEmitter
 ```
 
 Then when your using your event emitter in code, you'll get intellisense.  Here's an example from the project I'm currently working on:
 
-![Typesafe Event Emitter](/images/event-type-safety.png);
+![Typesafe Event Emitter](/images/event-type-safety.png)
 
-
-Happy coding!
+Pleasant coding.
