@@ -60,10 +60,10 @@ rn-cli.config.js here
 In order for typescript to allow you to import images, we have to let it know that our images are actually modules.  To do this, we simply add a `images.d.ts` file (could be named anything) within your source root (`src` for me).
 
 ```ts
-declare module '*.png'
-declare module '*.svg'
-declare module '*.jpg'
-declare module '*.jpeg'
+declare module '*.png';
+declare module '*.svg';
+declare module '*.jpg';
+declare module '*.jpeg';
 ```
 
 Then in your component/module you can import it like so:
