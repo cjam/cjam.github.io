@@ -26,3 +26,34 @@
       @warn "The parameter #{$val} is not valid";
     }
   }
+
+  @mixin rounded($radius:4px) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+  @mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+  }
+
+  @mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+  }
+
+  @mixin transform($args...){
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+  }
+
+  @mixin shadowed($args...){
+    box-shadow: 0 0 0 0, 0 8px 16px rgba(0, 0, 0, 0.2);
+  }

@@ -1,6 +1,11 @@
 ---
 title: Cjam.Github.Io
 timezone: America/Vancouver
+author: Colter McQuay
+copyright: 2018
+name: Colter McQuay
+description: Software developer based out of Victoria BC
+avatar: https://avatars3.githubusercontent.com/u/1000288?s=460&v=4
 collections:
   posts:
     title: Posts
@@ -11,10 +16,16 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Colter McQuay
-description: Software developer based out of Victoria BC
-avatar: https://avatars3.githubusercontent.com/u/1000288?s=460&v=4
-footer-links:
+
+share:
+  facebook: true
+  twitter: true
+  gplus: false
+  linkedin: true
+  pinterest: true
+  email: true
+
+social:
   dribbble: 
   email: 
   facebook: 

@@ -8,7 +8,7 @@ tags:
 - ios
 - android
 - java
-layout: article
+layout: post
 description: Some notes on my work on upgrading the Spotify SDK used within rn-spotify-sdk
 ---
 

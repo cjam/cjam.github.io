@@ -1,7 +1,7 @@
 ---
 title: Creating Geo-Referenced Playlist app
 date: 2018-10-12 10:05:24.075000000 -07:00
-layout: article
+layout: post
 description: Notes on creating my Geo Referenced playlist app code-named Longitunes
 ---
 
@@ -11,7 +11,10 @@ Ran into a bunch of issus with the new `create-react-native-app`, somethings sti
 
 ### Troubleshooting
 
-#### `Problems with glog (config.h missing) and gflags/gflags.h on Xcode 10`
+```
+Problems with glog (config.h missing) and gflags/gflags.h on Xcode 10 
+```
+{:.wrap.error}
 
 Turned out be caused by the new build system in X Code 10.  It was fixed using this comment: 
 
@@ -20,9 +23,10 @@ https://github.com/facebook/react-native/issues/19774#issuecomment-425897085
 
 #### Bunch of bundler errors
 
-```sh
-error: bundling failed: Error: Unable to resolve module `schedule/tracking`from `/Users/roughdraft/Projects/_craplets/longitunes/node_modules/react-native/Libraries/Renderer/oss/ReactNativeRenderer-dev.js`: Module `schedule/tracking` does not exist in the Haste module map
 ```
+error: bundling failed: Error: Unable to resolve module 'schedule/tracking'from '/Users/roughdraft/Projects/_craplets/longitunes/node_modules/react-native/Libraries/Renderer/oss/ReactNativeRenderer-dev.js': Module 'schedule/tracking' does not exist in the Haste module map
+```
+{:.wrap.error}
 
 <https://github.com/facebook/react-native/issues/21150#issuecomment-426496581>
 
@@ -37,21 +41,36 @@ Ok moving on.
 yarn add packages here
 ```
 
+>package.json 
+{:.filename}
 ```json
-package.json here
+{"more":"json"}
 ```
+{:.file-contents}
 
-```
-babelrc
-```
 
+>.babelrc
+{:.filename}
 ```json
-tsconfig
+{"more":"json"}
 ```
+{:.file-contents}
 
+
+>tsconfig.json
+{:.filename}
+```json
+{"more":"json"}
+```
+{:.file-contents}
+
+>rn-cli.config.js
+{:.filename}
 ```js
-rn-cli.config.js here
+// contents here
 ```
+{:.file-contents}
+
 
 ## Directory Structure
 
@@ -59,12 +78,15 @@ rn-cli.config.js here
 ## Loading Images
 In order for typescript to allow you to import images, we have to let it know that our images are actually modules.  To do this, we simply add a `images.d.ts` file (could be named anything) within your source root (`src` for me).
 
+>images.d.ts
+{:.filename}
 ```ts
 declare module '*.png';
 declare module '*.svg';
 declare module '*.jpg';
 declare module '*.jpeg';
 ```
+{:.file-contents}
 
 Then in your component/module you can import it like so:
 

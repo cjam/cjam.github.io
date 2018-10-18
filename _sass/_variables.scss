@@ -1,10 +1,10 @@
 
-//
-// VARIABLES
-//
+//********************************************************
+//                    Variables
+//********************************************************
 
 // Colors
-$blue: #4183C4;
+$blue: rgb(83, 163, 243);
 
 // Grays
 $black: #000;
@@ -14,6 +14,31 @@ $gray: #666;
 $mediumGray: #999;
 $lightGray: #DDD;
 $white: #fff;
+
+
+// Several accent colors, choose one or create your own!
+$accent-color: $blue;    // original =)
+// $accent-color: #C38FD6;  // velvet
+//$accent-color: #8FD6B3;  // greenish
+//$accent-color: #35B4DE;  // bluish
+//$accent-color: #D2E354;  // yellowish
+//$accent-color: #52B54B;  // green
+
+// $font-color: #1b1b1b;
+// $background-color: rgb(231, 231, 231);
+// $post-panel-color: #cecece;
+// $footer-background-color: #585858;
+$font-color: #dddddd;
+$background-color: #292929;
+$post-panel-color: #39393a;
+$footer-background-color: #292c2f;
+$header-background-color: $footer-background-color;
+$note-color: #87CEFA;
+$warning-color: #ffff00;
+// use this or pick any from /assets/images/backgrounds folder or from transparenttextures.com
+$background-pattern: '';//'random-grey-variations.png';
+
+
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -28,6 +53,10 @@ $base-border-radius: 4px;
 // =============================================================================
 
 $base-transition-speed: .2s;
+
+
+
+
 
 // Articles
 $article-header-title-color: $darkerGray;
